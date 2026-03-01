@@ -2,7 +2,7 @@ Made by: @1Mon
 
 Repository link: https://github.com/2Mon/tim
 
-Total hours: 2
+Total hours: 12
 
 # Feb 15 2026 | Research
 
@@ -30,4 +30,28 @@ This part also includes mounting for the four Z rods, which currently just slot 
 And here you can see it with the motors, z rods, and bearings. 
 
 <img width="642" height="439" alt="Screenshot 2026-03-01 at 12 27 45 PM" src="https://github.com/user-attachments/assets/c3349bf4-d860-414a-a0ad-f390e702669d" />
+
+Time Spent: 4h
+
+# Feb 25 2026 | Gantry Stuff
+
+Making the gantry for this is going to be VERY difficult. I am trying to keep it compact, and the belt path is not exactly easy to make compact. My first iteration turned out to be impossible to make IRL. there were sections that were WAYY too thin to be able to print well and stay stable during prints and under belt tension. Heres that first design: 
+
+<img width="229" height="260" alt="Screenshot 2026-03-01 at 6 39 12 PM" src="https://github.com/user-attachments/assets/859b9020-4565-43bc-8e4a-8d54dc865435" />
+
+I ended up changing up the belt path a tiny bit from this version, as the innitial setup didnt really allow a lot of space for the belt to be able to pass over the bearings. I changed it to have the single side of the bearing (wow i need a better name for this) be further out on the rod, which restricts my travel a bit but ends up making the belt path MUCH easier. 
+
+Here is my current design. It uses 125mm long 8mm linear rods and F693ZZ bearings for the belts to ride on. 
+
+<img width="522" height="394" alt="Screenshot 2026-03-01 at 6 45 04 PM" src="https://github.com/user-attachments/assets/3388542c-d7cb-471f-bd92-a020d7e2485f" />
+
+And here it is with the bearings and rods. Its a little difficult to see how it will go together.
+
+<img width="634" height="296" alt="Screenshot 2026-03-01 at 6 45 33 PM" src="https://github.com/user-attachments/assets/144ac54c-452f-4766-976d-7d5e57152660" />
+
+And here it is in the context of the rest of the machine. You can kinda see how the belts will go up from the motors to the gantry and back down. 
+
+<img width="595" height="386" alt="Screenshot 2026-03-01 at 6 46 22 PM" src="https://github.com/user-attachments/assets/f1e5e52f-7b3b-418b-9ba0-3eeb92c75535" />
+
+Time Spent: 6h 
 
