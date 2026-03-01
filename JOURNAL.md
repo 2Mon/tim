@@ -17,3 +17,17 @@ This one is MIR, and while it is more fleshed out it still needs a toolhead.
 I want to keep the compact size of OyO's design while using the better XYZ (if we want to call it that) joints from MIR. I call it TIM. in theory because its MIR and MOT combined and reversed, but also tim is a cool name.
 
 Time Spent: 2h
+
+
+# Feb 20 2026 | Motor Mount
+
+I really like the way that OyO laid out the motors in his design. Since I am trying to bring this to RMRRF, I need to keep this small enough to fit in a suitcase. I set up the motors so that the bodies are on the inside, right below where the build plate will go. I think that I will end up doing an external electronics bay on this, so this will help keep everything super compact. I am using two bearings to make the belt go to the edge of the motor, maximizing the xy travel while keeping the footprint very small. I can probably fit this as a carry on. 
+
+<img width="644" height="484" alt="Screenshot 2026-03-01 at 12 24 00 PM" src="https://github.com/user-attachments/assets/6f057836-9704-4737-aafb-274700c4edde" />
+
+This part also includes mounting for the four Z rods, which currently just slot into the holes. I should probably add a way to constrain them better. I dont plan to have an actual extrusion frame around this machine, so those rods need to be super rigid in the printer part.
+
+And here you can see it with the motors, z rods, and bearings. 
+
+<img width="642" height="439" alt="Screenshot 2026-03-01 at 12 27 45 PM" src="https://github.com/user-attachments/assets/c3349bf4-d860-414a-a0ad-f390e702669d" />
+
