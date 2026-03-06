@@ -2,7 +2,7 @@ Made by: @1Mon
 
 Repository link: https://github.com/2Mon/tim
 
-Total hours: 12
+Total hours: 22
 
 # Feb 15 2026 | Research
 
@@ -55,3 +55,47 @@ And here it is in the context of the rest of the machine. You can kinda see how 
 
 Time Spent: 6h 
 
+# March 1-5 2026 | XY Stuff
+
+Outside of the weird Z axis, this printer is basically just a messed up cross gantry machine. So I need all the hard parts of a cross gantry, while getting literally 0 benefits. yay. Cross gantry is a bit weird to design around, as toolheads need to have a lot of room for the carriages/bearings. 
+
+I started off my design with the XY rods. I innitially used 8mm rods, which you can see here. 
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/f615af22-7353-4d37-8132-daae677135ab" />
+
+It is fairly simple, basically just two more 8mm rods with bearings on them, with printed parts to connect them to the other bearings. I plan to have the bearings press fit into the parts for simplicity. After attempting to design a toolhead for this, I realized that the 8mm rods would be wayyy too big for the tiny nature of this machine.
+
+I switched to 6mm rods with carbon bushings instead of bearings. This means that instead of a 16mm hole for the bearing, its only an 8mm hole which makes packaging a lot easier. 
+
+<img height="228" alt="Screenshot 2026-03-05 at 11 33 41 PM" src="https://github.com/user-attachments/assets/de98f933-f51c-44b9-8c64-0004378b47dd" />
+
+These are the bushings I am going to use, specifically 6x8x20mm. This should give me a good balance between rigidity and compactness, which I REALLY need to optimize in this machine. I want to keep the outer dimensions within 200mm so I can bring it on a plane. 
+
+I started to design a toolhead around these bushings, using a TZ6 at the start, and then moving to a TZE3, and then to a bambu hotend. I needed something that was small so that I could get as much travel as possible. 
+
+<img width="300" alt="Screenshot 2026-03-05 at 11 35 49 PM" src="https://github.com/user-attachments/assets/b30cd138-8779-4291-bf81-19b78cf7b177" />
+
+This was my first idea for the layout of the toolhead. very compact but not really easy to design around. 
+
+<img height="300" alt="Screenshot 2026-03-05 at 11 36 34 PM" src="https://github.com/user-attachments/assets/352b4d96-b2b8-4f43-b14d-cd79eb45a320" />
+
+I made a big block to try laying it out, but I ended up realizing that I wouldnt be able to get full travel, which you can see here. The bed in this image is 72mm, which is pretty close to the 60mm that I am trying to get. 
+
+<img width="500" alt="Screenshot 2026-03-05 at 11 37 59 PM" src="https://github.com/user-attachments/assets/21b86997-77c9-48ed-a8e9-b8d7fbcc903b" />
+
+I could have offset the bed a bit but I decided that that would be really ugly and I didnt want to do that. I was also experimenting with colors that I wanted to do for the printer. I think I'm gonna do this cool shiny pink stuff. Because why not. Pink is cool. 
+
+Next, one of my friends gave me the genius idea to use a 2 in 1 out hotend. Most of my issues were coming from the fact that hotends are always going to be centered around the bowden input, meaning that I would need to offset it so that the linear rods dont interfere with it. I had the idea to make the bowden tube kink around the rod, but i decided that that would be too annoying and weird. I discovered the E3D Cyclops hotend, which is a 2 in 1 out hotend. By some miracle, the rod can go right between the two bowden tubes. Its perfect. Its also incredibly silly, and will let me do multi color on this stupid thing. Heres a pic of how it looks. 
+
+<img width="237" height="436" alt="Screenshot 2026-03-05 at 11 45 41 PM" src="https://github.com/user-attachments/assets/e464b9a9-fb46-4da9-af6a-8b34acccc5fa" />
+
+The rod can go right through the middle and the bowden tubes can come out around them. Its awesome. Its also really cheap on aliexpress. Overall 10/10. I needed to do some little changes to some of the parts, including the xyz joints to allow for some extra travel so the nozzle can reach the whole bed. This is what the new part looks like. 
+
+<img width="402" height="358" alt="Screenshot 2026-03-05 at 11 47 26 PM" src="https://github.com/user-attachments/assets/636cba22-952f-4bc5-9c41-75f8a8185616" />
+
+I think that overall its an improvement. Part uses less material, i get to mess with a cool hotend, and i get to have fun. win win win. 
+
+Lastly, I added a top plate for the printer. Currently its very simple and just holds the bearings for the z idlers. In the future I want to add a place for people to be able to sign it during RMRRF, as well as hold the extruders. 
+
+should I develop my own silly dual extruder? maybe. would be funny. 
+
+Time Spent: 10h
