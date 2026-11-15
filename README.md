@@ -14,6 +14,8 @@ I designed this for [Hack Club](https://hackclub.com) Infill and showcased it at
 
 <img width="400" alt="Tim at RMRRF" src="https://outpost.hackclub.com/rmrrf.png"/>
 
+Check out my engineering design process in [JOURNAL.md](JOURNAL.md)!
+
 ## Specs
 
 | | |
